@@ -56,7 +56,7 @@ Users can customise their experience and manage their account on the settings pa
 | Setting             | Description                                                                      |
 | ------------------- | -------------------------------------------------------------------------------- |
 | Measurement units   | Overrides the [configured default measurement unit](/features/for-administrators#setting-a-location) to either kilometers or miles. |
-| Username            | Users can change their username at any time.                                     |
+| Change your details | Users can change their username or password at any time.                         |
 | Delete your account | All posts and comments made by the user are deleted with the account.            |
 | Hidden categories   | All categories hidden by the user are listed here and can be unhidden.           |
 

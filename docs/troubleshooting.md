@@ -1,5 +1,16 @@
 # Troubleshooting
 
+## Lost Administrator Password
+
+As with any user password, the administrator password can be recovered by clicking the `Forgot password` link on the
+login page. This method requires a working mail configuration. In the event that you are not able to recover the
+administrator password using this method, you can run the following command on the host machine to force the reset of
+the administrator password:
+
+```shellscript
+docker exec -it habitat sh -c 'php bin/console habitat:reset-admin-password'
+```
+
 ## Reverse Proxy SSL Certificate Issues
 
 Those using a reverse proxy such as [Nginx Proxy Manager](https://nginxproxymanager.com/) or
