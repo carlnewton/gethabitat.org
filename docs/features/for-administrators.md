@@ -115,22 +115,14 @@ There exist mail providers with free tiers that work well with Habitat, such as 
 
 When configuring the mail settings, the administrator can populate the following fields:
 
-| Field                   | Description                                                                                 |
-| ----------------------- | ------------------------------------------------------------------------------------------- |
-| SMTP username           | This is an optional field, as some locally hosted mail servers may not require credentials. |
-| SMTP password           | This is an optional field. Some mail providers will provide an API key instead of a password, and this would often be used in place of the SMTP password. |
-| SMTP server             | The URL of the mail provider server.                                                        |
-| SMTP port               | This would usually be `587` or `25` depending on the mail server's configuration.           |
-| Sender email address    | All emails sent from this Habitat instance will be sent from this email address.            |
-| Recipient email address | Populate this field **only** if wanting to test the provided details. If you want to save the details, leave this field empty. |
-
-::: warning
-
-If you populate the `Recipient email address` field, the provided details will not save, but instead send a test email.
-Leave this field empty once you've received the test email to save.
-
-:::
-
+| Field                        | Description                                                                                 |
+| ---------------------------- | ------------------------------------------------------------------------------------------- |
+| SMTP username                | This is an optional field, as some locally hosted mail servers may not require credentials. |
+| SMTP password                | This is an optional field. Some mail providers will provide an API key instead of a password, and this would often be used in place of the SMTP password. |
+| SMTP server                  | The URL of the mail provider server.                                                        |
+| SMTP port                    | This would usually be `587` or `25` depending on the mail server's configuration.           |
+| Sender email address         | All emails sent from this Habitat instance will be sent from this email address.            |
+| Test recipient email address | This field is not saved, but used to test the mail settings when clicking the `Send a test email` button. |
 
 ## Local vs S3 storage options
 
