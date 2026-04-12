@@ -84,8 +84,10 @@ an announcement, the administrator will populate the following fields:
 ## User Registration
 
 By default, user registrations will be disabled on a new Habitat instance. This gives the administrator the time to
-configure their Habitat as they please before inviting users to sign up. It is possible to enable and disable user
-registration at any time.
+configure their Habitat as they please before inviting users to sign up. It is only possible to enable registrations if
+the [mail settings](#mail-configuration) have been configured. This is because a verification email is sent to the user
+when registering for an account, though it is possible for an administrator to manually verify accounts. It's possible
+to disable new user registrations at any time.
 
 ### Registration Challenge
 
