@@ -31,7 +31,7 @@ Users can create posts with the following fields:
 | Field    | Description                                                             |
 | -------- | ----------------------------------------------------------------------- |
 | Title    | The title of the post.                                                  |
-| Body     | An optional field for providing further details of the post.            |
+| Body     | An optional field for providing further details of the post. It is possible to add hyperlinks to posts here. |
 | Category | A selection of predefined categories [as specified by the administrator](/features/for-administrators#category-management). |
 | Photos   | A user may optionally attach uploaded photos to their post.             |
 | Location | Depending on the [configuration of the category](/features/for-administrators#category-management), the user may be able (or required) to use a map to place a marker to specify a location that the post represents. The marker may be placed anywhere [inside of the area of the Habitat](/features/for-administrators#setting-a-location). |
@@ -67,3 +67,4 @@ Users can customise their experience and manage their account on the settings pa
 | Reporting      | Users can [report](/features/for-moderators.html#report-moderation) posts and comments for moderation. |
 | Notifications  | Users will be notified in the interface when they have received a comment on a post.                   |
 | Moderation log | All [moderation actions](/features/for-moderators) performed on a Habitat are logged and kept for 30 days for public viewing. |
+| RSS feed       | An RSS feed of the 10 latest post is available at `/rss/latest.xml`.                                   |
