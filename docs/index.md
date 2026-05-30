@@ -30,17 +30,9 @@ features:
     details: Locals can discuss specific locations within their Habitat and find out about conversations happening nearby.
     icon: 🧭
 ---
-<p class="center-heading">It looks like this on your desktop...</p>
+<p class="center-heading">It looks like this ...</p>
 
-<div class="screenshot">
-  <img src="/home-feed-desktop.png" alt="The Habitat Home Feed on a desktop device">
-</div>
-
-<p class="center-heading">And like this when you're out and about...</p>
-
-<div class="screenshot">
-  <img src="/nearby-feed.png" alt="The Habitat Nearby Feed on a mobile device">
-</div>
+<img class="homepage-screenshot" src="/desktop-and-mobile.png" alt="The Habitat Home Feed on a desktop and mobile device">
 
 ::: tip
 

@@ -136,6 +136,10 @@
   --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
 }
 
+.homepage-screenshot {
+  padding: 20px;
+}
+
 .screenshot {
   padding: 20px;
 }
