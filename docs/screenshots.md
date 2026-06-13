@@ -83,3 +83,17 @@ The categories index:
 <div class="screenshot">
   <img src="/category-management.png" alt="The categories index">
 </div>
+
+## Dark Mode
+
+Dark mode on the desktop:
+
+<div class="screenshot">
+  <img src="/dark-mode-desktop.png" alt="The Habitat Home Feed in Dark Mode on a desktop device">
+</div>
+
+Dark mode on a mobile device:
+
+<div class="screenshot">
+  <img src="/dark-mode-mobile.png" alt="The Habitat Home Feed in Dark Mode on a mobile device">
+</div>

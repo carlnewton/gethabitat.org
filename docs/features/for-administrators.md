@@ -145,4 +145,5 @@ functionality to switch between S3 and local storage.
 | Feature                      | Description                                                                                                     |
 | ---------------------------- | --------------------------------------------------------------------------------------------------------------- |
 | Habitat name                 | Setting a Habitat name overrides its default value of `Habitat` in page titles and the navigation bar.          |
+| Theme                        | Setting the theme to light or dark mode affects the the appearance of the Habitat for all users, but can be overridden on the user settings page. |
 | Moderator promotion/demotion | It is possible for administrators to promote users to become moderators and demote moderators to regular users. |
